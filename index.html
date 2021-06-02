@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="./img/favicon.ico" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <script src="https://kit.fontawesome.com/d493d8cac8.js" crossorigin="anonymous"></script>
+    <title>Variedades A & T</title>
+</head>
+
+<body>
+    <header class="topheader">
+        <nav class="topnav">
+            <a class="logomarca-link" href="#">
+                <img class="logomarca-img" src="./img/logo-marca.png " alt="Logo" title="logo Variedades A & T" />
+            </a>
+            <button id="menu-click" class="topnav__button-menu">
+                <i class="fas fa-bars"></i>
+                <span class="button-text">Menú</span>
+            </button>
+            <div id="menu-down" class="topnav__menu-container">
+                <ul class="topnav__menu">
+                    <li>
+                        <a href="# "> <i class="fas fa-home"></i>Inicio</a>
+                    </li>
+                    <li>
+                        <a href="# "> <i class="fas fa-crown"></i>Servicios</a>
+                    </li>
+                    <li>
+                        <a href="# "> <i class="fas fa-grip-vertical"></i>Productos</a>
+                    </li>
+                    <li>
+                        <a href="# "> <i class="fas fa-user-friends"></i>Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="# "> <i class="fas fa-id-card"></i>Contactanos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="principal-container">
+        <section class="main-secundary-container pics">
+            <div class="pics__container">
+                <div class="pics__box">
+                    <a href="#">
+                        <picture class="pics-picture-conteiner" id="serv1">
+                            <source media="(min-width: )" srcset="" />
+                            <source media="(min-width: )" srcset="" />
+                            <img src="./img/main-pics/serv1.jpg" alt="images de servicios" />
+                        </picture>
+                        <picture class="pics-picture-conteiner none" id="serv2">
+                            <source media="(min-width: )" srcset="" />
+                            <source media="(min-width: )" srcset="" />
+                            <img src="./img/main-pics/serv2.jpg" alt="images de servicios" />
+                        </picture>
+                        <picture class="pics-picture-conteiner none" id="serv3">
+                            <source media="(min-width: )" srcset="" />
+                            <source media="(min-width: )" srcset="" />
+                            <img src="./img/main-pics/serv3.jpg" alt="images de servicios" />
+                        </picture>
+                    </a>
+                </div>
+                <div class="pics__box">
+                    <a href="#">
+                        <picture class="pics-picture-conteiner" id="pro1">
+                            <source media="(min-width: )" srcset="" />
+                            <source media="(min-width: )" srcset="" />
+                            <img src="./img/main-pics/pro1.jpg" alt="imagenes de productos" />
+                        </picture>
+                        <picture class="pics-picture-conteiner none" id="pro2">
+                            <source media="(min-width: )" srcset="" />
+                            <source media="(min-width: )" srcset="" />
+                            <img src="./img/main-pics/pro2.jpg" alt="imagenes de productos" />
+                        </picture>
+                        <picture class="pics-picture-conteiner none" id="pro3">
+                            <source media="(min-width: )" srcset="" />
+                            <source media="(min-width: )" srcset="" />
+                            <img src="./img/main-pics/pro3.jpg" alt="imagenes de productos" />
+                        </picture>
+                    </a>
+                </div>
+                <div class="pics__box">
+                    <a href="#">
+                        <picture class="pics-picture-conteiner" id="ins1">
+                            <source media="(min-width: )" srcset="" />
+                            <source media="(min-width: )" srcset="" />
+                            <img src="./img/main-pics/ins1.jpg" alt="imagenes de las instalaciones" />
+                        </picture>
+                        <picture class="pics-picture-conteiner none" id="ins2">
+                            <source media="(min-width: )" srcset="" />
+                            <source media="(min-width: )" srcset="" />
+                            <img src="./img/main-pics/ins2.jpg" alt="imagenes de las instalaciones" />
+                        </picture>
+                        <picture class="pics-picture-conteiner none" id="ins3">
+                            <source media="(min-width: )" srcset="" />
+                            <source media="(min-width: )" srcset="" />
+                            <img src="./img/main-pics/ins3.jpg" alt="imagenes de las instalaciones" />
+                        </picture>
+                    </a>
+                </div>
+                <div class="pics__box">
+                    <a href="#">
+                        <video id="vid1" class="video" loop controls>
+                            <source src="./img/main-pics/videoplayback (2).mp4" type="video/mp4"
+                                alt="Videos publicitarios" />
+                        </video>
+                        <video id="vid2" class="video none" loop controls>
+                            <source src="./img/main-pics/videoplayback (2).mp4" type="video/mp4"
+                                alt="Videos publicitarios" />
+                            <!-- agregar video 2 -->
+                        </video>
+                        <video id="vid3" class="video none" loop controls>
+                            <source src="./img/main-pics/videoplayback (2).mp4" type="video/mp4"
+                                alt="Videos publicitarios" />
+                            <!-- agregar video 3 -->
+                        </video>
+                    </a>
+                </div>
+                <button class="pics__containers-change" id="change">
+                    <div class="left"></div>
+                    <i class="fas fa-circle new-color" id="dot1"></i>
+                    <i class="fas fa-circle" id="dot2"></i>
+                    <i class="fas fa-circle right" id="dot3"></i>
+                </button>
+            </div>
+        </section>
+        <section class="main-secundary-container schedule">
+            <div class="schedule__conteiner">
+                <picture class="schedule__picture-container">
+                    <source media="(min-width: )" srcset="" />
+                    <source media="(min-width: )" srcset="" />
+                    <img src="./img/main-pics/schedule.png" alt="Imagen de horario de atención" />
+                </picture>
+            </div>
+        </section>
+        <section class="main-secundary-container promotions">
+            <div class="promotions__conteiner">
+                <button class="promotions__conteiner-go-left" id="button-left">
+                    <i class="fas fa-arrow-alt-circle-left"> </i>
+                </button>
+                <picture class="promotions__picture-container" id="promo1">
+                    <source media="(min-width: )" srcset="" />
+                    <source media="(min-width: )" srcset="" />
+                    <img src="./img/main-pics/promo1.jpg" alt="Imagen de horario de atención" />
+                </picture>
+                <picture class="promotions__picture-container none" id="promo2">
+                    <source media="(min-width: )" srcset="" />
+                    <source media="(min-width: )" srcset="" />
+                    <img src="./img/main-pics/promo2.png" alt="Imagen de horario de atención" />
+                </picture>
+                <picture class="promotions__picture-container none" id="promo3">
+                    <source media="(min-width: )" srcset="" />
+                    <source media="(min-width: )" srcset="" />
+                    <img src="./img/main-pics/promo3.jpg" alt="Imagen de horario de atención" />
+                </picture>
+                <button class="promotions__conteiner-go-right" id="button-right">
+                    <i class="fas fa-arrow-alt-circle-right"></i>
+                </button>
+            </div>
+        </section>
+        <section class="main-secundary-container articles">
+            <article class="articles__conteiner">
+                <h1>LA BELLEZA & LOS ACCESORIOS</h1>
+                <picture class="articles__picture-container">
+                    <source media="(min-width: )" srcset="" />
+                    <source media="(min-width: )" srcset="" />
+                    <img src="./img/main-pics/art1.jpeg" alt=" Imagen del articulo " />
+                </picture>
+                <p>
+                    La belleza se describe comúnmente como una característica de los objetos que hace que estos objetos sean placenteros de percibir. Tales objetos incluyen paisajes, puestas de sol, seres humanos y obras de arte. Belleza es una noción abstracta ligada a
+                    numerosos aspectos de la existencia humana
+                </p>
+                <p>
+                    Los accesorios y cosméticos son productos que se utilizan para la belleza o higiene del cuerpo. Es habitual que se utilice como sinónimo la noción de maquillaje, que es el compuesto artificial que se aplica en el rostro para adecuarlo a la iluminación,
+                    ocultar imperfecciones o lograr una determinada caracterización.
+                </p>
+                <picture class="articles__picture-container ">
+                    <source media="(min-width: ) " srcset=" " />
+                    <source media="(min-width: ) " srcset=" " />
+                    <img src="./img/main-pics/art2.jpg" alt="Imagen del articulo " />
+                </picture>
+                <p>
+                    Los conceptos anteriores no son más que eso, conceptos. Todos y cada uno de nosotros somos los que les damos contexto; después de todo en cuanto a belleza esta está en los ojos de él que mira y los accesorios son ese complemento ideal para realzar nuestra
+                    belleza propia; claro esta para los accesorios también se aplica la apreciación subjetiva.
+                </p>
+                <picture class="articles__picture-container ">
+                    <source media="(min-width: ) " srcset=" " />
+                    <source media="(min-width: ) " srcset=" " />
+                    <img src="./img/logo-marca.png" alt="Imagen del articulo " />
+                </picture>
+            </article>
+        </section>
+    </main>
+    <footer class="bottomfooter">
+        <section class="bottomfooter__sections bottomfooter__sections-grid">
+            <div>
+                <h2>SERVICIOS COMO: </h2>
+                <a href="#">-	Puesta de pestañas (L – M – S)</a>
+                <a href="#">-	Pestañas punto a punto</a>
+                <a href="#">-	Moños & Estilos básicos</a>
+                <a href="#">-	Depilación de cejas </a>
+                <a href="#">-	Maquillajes para eventos</a>
+            </div>
+            <div>
+                <h2>VENTA DE: </h2>
+                <a href="#">-	Bolsos & Carteras</a>
+                <a href="#">-	Cosméticos </a>
+                <a href="#">-	Cremas </a>
+                <a href="#">-	Accesorios </a>
+                <a href="#">-	Deportivos para dama</a>
+                <a href="#">-	Tenis </a>
+            </div>
+        </section>
+        <section class="bottomfooter__sections">
+            <h2>VISÍTANOS: </h2>
+            <p>Nos en centramos ubicados en CR 3 CLL 27-28, diagonal a la Registraduría primera del municipio de Quibdó.</p>
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d992.5363022559415!2d-76.660468170859!3d5.692148334234437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNcKwNDEnMzEuNyJOIDc2wrAzOSczNS43Ilc!5e0!3m2!1ses-419!2sco!4v1622577391374!5m2!1ses-419!2sco"
+                    width="280" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+        <section class="bottomfooter__sections bottomfooter__sections-medias">
+            <div class="media__pointer">
+
+                <h2>SÍGUENOS EN REDES </h2>
+                <i class="fas fa-hand-point-down">
+                </i><i class="fas fa-hand-point-down"></i>
+            </div>
+            <div class="medias__container">
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </section>
+    </footer>
+    <script src="./js/index.js "></script>
+</body>
+
+</html>
